@@ -1,6 +1,7 @@
 -- Multi-Table Query Practice
 
 -- Display the ProductName and CategoryName for all products in the database. Shows 77 records.
+ 
 
 
 SELECT 
@@ -37,4 +38,4 @@ FROM [order] as o
 JOIN Customer as c
 JOIN Employee as e 
 on  o.employeeId = E.Id
-where o.CustomerId = c.Id
+where o.CustomerId = c.Id;

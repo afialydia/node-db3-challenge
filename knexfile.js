@@ -8,6 +8,7 @@ module.exports = {
     connection: {
       filename: './data/schemes.db3',
     },
+    useNullAsDefault: true,
     migrations: {
       directory: './data/migrations'
     },
